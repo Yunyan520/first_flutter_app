@@ -42,6 +42,31 @@ class _MySecondPageState extends State<MySecondPage> {
                       height: 24,
                     ),
                   ),
+                  Opacity(
+                    opacity: opacity,
+                    child: Padding(
+                      padding: EdgeInsets.fromLTRB(10, 0, 0, 0),
+                      child: Text(
+                        "BTC / ETH",
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold),
+                      ),
+                    ),
+                  ),
+                  Opacity (
+                    opacity: opacity,
+                    child:  Container (
+                      margin: EdgeInsets.fromLTRB(8, 0, 0, 0),
+                      child: Image.asset(
+                        "images/arrow_white_down.png",
+                        width: 10,
+                        height: 10,
+                      ),
+                    ),
+                  ),
+                  
                 ],
               ),
             ),
